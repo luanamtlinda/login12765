@@ -18,7 +18,7 @@ module.exports = (app)=>{
                 nome:req.body.nome,
                 email:req.body.email,
                 senha:senhasegura
-            }).save ()
+            }).save()
             res.render('login.ejs')
         }
     })
